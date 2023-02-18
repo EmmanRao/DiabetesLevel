@@ -37,28 +37,27 @@ git config --global user.email "emain id on which github account is attached"
 '''
 
 
-import libraries
-create app 
-load pickle files
-load scaling file
-create @app.route
-def function
-create predict api
+1. import libraries
+2. create app 
+3. load pickle files
+4. load scaling file
+5. create @app.route
+6. def function
+7. create predict api
     request
     read data from json 
     then reshape
     then transform
     then model.predict
     then return
-create predict function
+8. create predict function
     request
     read data from json and form
     then reshape
     then transform
     then model.predict
     then return
-
-now to run app 
+9. now to run app 
 '''
 if __name__=="__main__":
     app.run(debug=True)
